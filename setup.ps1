@@ -15,7 +15,7 @@ python.exe -m pip install --upgrade pip
 
 Write-Host "Installation des dépendances Python..."
 
-conda env update --file=environment-full.yml
+conda env update --file=environment.yml
 pip install -r requirements.txt
 
 Write-Host "Setup termine avec succes."
