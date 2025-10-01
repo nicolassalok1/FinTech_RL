@@ -1,9 +1,3 @@
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-
-.\Validate-WSL-GPU-Win10.ps1
-
-
-
 <#
 .SYNOPSIS
   Validation WSL2 + Accès GPU (WSL) + Tests PyTorch/TensorFlow (optionnels) sous Windows 10.
